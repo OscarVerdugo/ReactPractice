@@ -1,0 +1,12 @@
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+@media (max-width: 600px) {
+    .photo {
+        width: 70px;
+        height: 70px;
+    }
+}
