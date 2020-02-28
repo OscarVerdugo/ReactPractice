@@ -7,7 +7,7 @@ import CustomCard from "../../components/cardButton/cardButton.js";
 import Styles from "./styles.js";
 
 const cards = [
-  {
+  { 
     text :"Dashboard",
     url : process.env.PUBLIC_URL + "/images/store.jpg",
     width:350,

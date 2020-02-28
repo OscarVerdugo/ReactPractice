@@ -7,6 +7,12 @@ export const Styles = props =>
         padding: "3em 1em"
     },
     item:{
-        margin:"10px"
+        margin:"10px",
+        cursor:"pointer"
+    },
+    fabButton:{
+      position:"fixed",
+      bottom:"30px",
+      right:"30px"
     }
   }))();

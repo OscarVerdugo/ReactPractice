@@ -4,9 +4,27 @@
     border-radius: 100%;
 }
 
+.iconBadge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    background-color:#f1c40f;
+    color:#fff;
+    height:50px;
+    width:50px;
+    border-radius:100%;
+    transform:translate(0px,50px);
+}
 @media (max-width: 600px) {
     .photo {
-        width: 70px;
-        height: 70px;
+        width: 80px;
+        height: 80px;
+    }
+    .iconBadge{
+        height:40px;
+        width:40px;
+    transform:translate(0px,30px);
+
     }
 }

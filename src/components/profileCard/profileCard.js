@@ -8,10 +8,11 @@ import {
   Chip,
   LinearProgress,
   // Fab,
-  Badge
+  Badge,
+  Box
 } from "@material-ui/core";
 import { lighten, withStyles } from "@material-ui/core/styles";
-// import Icon from "@material-ui/core/Icon";
+import StarIcon from '@material-ui/icons/Star';
 import styles from "./styles.js";
 
 export default () => {
@@ -85,21 +86,14 @@ export default () => {
         <CardContent>
           <Grid container direction="row" spacing={0}>
             <Grid item xs={4} className={classes.photoContainer}>
-              <Badge
-                color="secondary"
-                overlap="circle"
-                badgeContent=" "
-                anchorOrigin={{
-                  vertical: "bottom",
-                  horizontal: "left"
-                }}
-              >
                 <img
                   className="photo"
                   src="https://cf.shopee.ph/file/e97a587ca0109d1d077f2683a82576da"
                   alt="profilePhoto"
                 />
-              </Badge>
+                <Box className="iconBadge" boxShadow={1}>
+                  <StarIcon />
+                </Box>
             </Grid>
             <Grid item xs={8}>
               <InfoSection />
