@@ -11,7 +11,7 @@ function App() {
   return (
     <Container>
       <ProjectsPage/>
-      {/* <HomePage/> */}
+      <HomePage/>
     </Container>
   );
 }
