@@ -5,6 +5,7 @@ import { useMediaQuery } from "react-responsive";
 import { Grid, Fab } from "@material-ui/core";
 
 import { Styles } from "./styles.js";
+import MenuIcon from "@material-ui/icons/Menu";
 import AddIcon from "@material-ui/icons/Add";
 import CardButton from "../../components/cardButton/cardButton.js";
 import ProjectDialog from "../../components/projectDialog/projectDialog.js";
@@ -74,7 +75,6 @@ const ProjectPage = props => {
   };
 
   const handleCloseDialog = () => {
-    console.log("close dialog");
     setOpen(false);
   };
   return (
@@ -84,6 +84,8 @@ const ProjectPage = props => {
         {projects.map(p => (
           <Grid item key={p.id} className={classes.item} onClick={handleOpenDialog}>
             <CardButton
+              subButtonIcon={<MenuIcon style={{color:"#fff"}}/>}
+              subButtonRoute="/home"
               width={200}
               height={200}
               labelText={p.name}

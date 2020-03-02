@@ -6,13 +6,16 @@ import PropTypes from "prop-types";
 import { Styles } from "./styles";
 
 import { Typography, ButtonBase, Box } from "@material-ui/core";
+import { useHistory } from "react-router-dom"; 
 
 
 const cardButton = props => {
   const classes = Styles(props);
-  console.log(classes);
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 600px)" });
-
+  const history = useHistory();
+  const onNavigate = (route) =>{
+    history.push(route);
+  }
   return (
     <div className={classes.root}>
       <Box boxShadow={1} className={classes.buttonBase}>
@@ -37,6 +40,7 @@ const cardButton = props => {
             }}
           ></span>
         </ButtonBase>
+        {props.subButtonIcon ? <div className={classes.subButton} onClick={()=>{onNavigate(props.subButtonRoute)}}>{props.subButtonIcon}</div> : null}
       </Box>
       {props.labelText ? (
         <Typography
@@ -53,12 +57,15 @@ const cardButton = props => {
 };
 
 cardButton.propTypes = {
+  onClick:PropTypes.func,
   insideText: PropTypes.string,
   labelText: PropTypes.string,
   imageUrl: PropTypes.string,
   color: PropTypes.string,
   height: PropTypes.number.isRequired,
-  width: PropTypes.number.isRequired
+  width: PropTypes.number.isRequired,
+  subButtonIcon:PropTypes.element,
+  subButtonRoute:PropTypes.string
 };
 
 export default cardButton;

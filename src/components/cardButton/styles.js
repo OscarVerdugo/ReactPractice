@@ -40,14 +40,18 @@ export const Styles = props =>
       width: props.width ? `${props.width}px` : "auto"
     },
     buttonBase: {
-      display: "flex",
-      flexWrap: "wrap",
+      // display: "flex",
+      // flexWrap: "wrap",
+      position:"relative",
       borderRadius: "5px",
       width: "100%",
       backgroundColor: props.color ? props.color : "#000",
       "&:hover $imageSrc": {
         opacity: 3,
         transition: "0.2s"
+      },
+      "&:hover $subButton":{
+        display:"flex"
       },
       "&:hover $insideTextLg": {
         ...insideButtonHover(props.textHoverColor),
@@ -94,6 +98,20 @@ export const Styles = props =>
       ...labelText,
       fontSize: "1.25em",
       fontWeight: 350
+    },
+    subButton:{
+      width:"40px",
+      height:"40px",
+      backgroundColor:"#616161",
+      position:"absolute",
+      bottom:"0px",
+      right:"0px",
+      borderRadius:"5px 0px 5px 0px",
+      zIndex:3,
+      display:"none",
+      alignItems:"center",
+      justifyContent:"center",
+      boxShadow:"-2px -2px 6px 0px rgba(0,0,0,0.40)"
     }
   }))();
 

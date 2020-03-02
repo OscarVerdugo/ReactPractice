@@ -6,14 +6,12 @@ import Button from "@material-ui/core/Button";
 import Dialog from "@material-ui/core/Dialog";
 import DialogActions from "@material-ui/core/DialogActions";
 import DialogContent from "@material-ui/core/DialogContent";
-import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import Popover from "@material-ui/core/Popover";
 import Typography from "@material-ui/core/Typography";
 import {TableBody, Table, TableContainer, TableHead, TableCell, TableRow, Paper} from "@material-ui/core";
 
-import IconLaptop from "@material-ui/icons/Laptop";
-import IconPhone from "@material-ui/icons/PhoneAndroid";
+import MenuIcon from "@material-ui/icons/Menu";
 
 import ButtonMenu from "../buttonMenu/buttonMenu.js";
 
@@ -279,6 +277,8 @@ const ProjectDialog = props => {
         </div>
       </DialogContent>
       <DialogActions>
+      <Button onClick={props.onClose} variant="outlined"><MenuIcon/> &nbsp;&nbsp;DETAILS</Button>
+
         <Button onClick={props.onClose}>Close</Button>
       </DialogActions>
       <Popover
