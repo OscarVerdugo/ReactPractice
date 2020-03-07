@@ -1,0 +1,45 @@
+{
+  "name": "menu_options",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "inside_text": {
+      "type": "string"
+    },
+    "image_route": {
+      "type": "string"
+    },
+    "label_text": {
+      "type": "string"
+    },
+    "route": {
+      "type": "string",
+      "required": true
+    },
+    "user_type_id": {
+      "type": "number",
+      "required": true
+    },
+    "general": {
+      "type": "boolean",
+      "default": false
+    },
+    "status": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "user_type_id_menu_options": {
+      "type": "belongsTo",
+      "model": "user_types",
+      "foreignKey": "user_type_id"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

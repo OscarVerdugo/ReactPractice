@@ -1,0 +1,37 @@
+{
+  "name": "users",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "status": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    },
+    "password": {
+      "type": "string",
+      "required": true
+    },
+    "user_type_id": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "user_type_id_users": {
+      "type": "belongsTo",
+      "model": "user_types",
+      "foreignKey": "user_type_id"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

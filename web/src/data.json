@@ -1,0 +1,294 @@
+[
+    {
+        "id": 1,
+        "name": "Example Project",
+        "img":"/images/no_image.png",
+        "collaborators":[
+            {
+                "id":1,
+                "name":"Elizabeth",
+                "jobTitle":"dev",
+                "tasks":[
+                    {
+                        "id": 1,
+                        "desc": "A4-1",
+                        "status":1
+                    },
+                    {
+                        "id": 2,
+                        "desc": "A4-2",
+                        "status":1
+                    },
+                    {
+                        "id": 3,
+                        "desc": "A4-3",
+                        "status":1
+                    }
+                ]
+            },
+            {
+                "id":2,
+                "name":"Robert",
+                "jobTitle":"junior",
+                "tasks":[
+                    {
+                        "id": 1,
+                        "desc": "A4-1",
+                        "status":1
+                    },
+                    {
+                        "id": 2,
+                        "desc": "A4-2",
+                        "status":1
+                    },
+                    {
+                        "id": 3,
+                        "desc": "A4-3",
+                        "status":1
+                    }
+                ]
+            },
+            {
+                "id":3,
+                "name":"Chris",
+                "jobTitle":"Ola",
+                "tasks":[
+                    {
+                        "id": 1,
+                        "desc": "A4-1",
+                        "status":1
+                    },
+                    {
+                        "id": 2,
+                        "desc": "A4-2",
+                        "status":1
+                    },
+                    {
+                        "id": 3,
+                        "desc": "A4-3",
+                        "status":1
+                    }
+                ]
+            }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Example Project",
+        "img":"/images/example2.png",
+        "collaborators":[
+            {
+                "id":1,
+                "name":"Elizabeth",
+                "jobTitle":"dev",
+                "tasks":[
+                    {
+                        "id": 1,
+                        "desc": "A4-1",
+                        "status":1
+                    },
+                    {
+                        "id": 2,
+                        "desc": "A4-2",
+                        "status":1
+                    },
+                    {
+                        "id": 3,
+                        "desc": "A4-3",
+                        "status":1
+                    }
+                ]
+            },
+            {
+                "id":2,
+                "name":"Robert",
+                "jobTitle":"junior",
+                "tasks":[
+                    {
+                        "id": 1,
+                        "desc": "A4-1",
+                        "status":1
+                    },
+                    {
+                        "id": 2,
+                        "desc": "A4-2",
+                        "status":1
+                    },
+                    {
+                        "id": 3,
+                        "desc": "A4-3",
+                        "status":1
+                    }
+                ]
+            },
+            {
+                "id":3,
+                "name":"Chris",
+                "jobTitle":"Ola",
+                "tasks":[
+                    {
+                        "id": 1,
+                        "desc": "A4-1",
+                        "status":1
+                    },
+                    {
+                        "id": 2,
+                        "desc": "A4-2",
+                        "status":1
+                    },
+                    {
+                        "id": 3,
+                        "desc": "A4-3",
+                        "status":1
+                    }
+                ]
+            }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Example Project",
+        "img":"/images/example2.png",
+        "collaborators":[
+            {
+                "id":1,
+                "name":"Elizabeth",
+                "jobTitle":"dev",
+                "tasks":[
+                    {
+                        "id": 1,
+                        "desc": "A4-1",
+                        "status":1
+                    },
+                    {
+                        "id": 2,
+                        "desc": "A4-2",
+                        "status":1
+                    },
+                    {
+                        "id": 3,
+                        "desc": "A4-3",
+                        "status":1
+                    }
+                ]
+            },
+            {
+                "id":2,
+                "name":"Robert",
+                "jobTitle":"junior",
+                "tasks":[
+                    {
+                        "id": 1,
+                        "desc": "A4-1",
+                        "status":1
+                    },
+                    {
+                        "id": 2,
+                        "desc": "A4-2",
+                        "status":1
+                    },
+                    {
+                        "id": 3,
+                        "desc": "A4-3",
+                        "status":1
+                    }
+                ]
+            },
+            {
+                "id":3,
+                "name":"Chris",
+                "jobTitle":"Ola",
+                "tasks":[
+                    {
+                        "id": 1,
+                        "desc": "A4-1",
+                        "status":1
+                    },
+                    {
+                        "id": 2,
+                        "desc": "A4-2",
+                        "status":1
+                    },
+                    {
+                        "id": 3,
+                        "desc": "A4-3",
+                        "status":1
+                    }
+                ]
+            }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Example Project",
+        "img":"/images/example2.png",
+        "collaborators":[
+            {
+                "id":1,
+                "name":"Elizabeth",
+                "jobTitle":"dev",
+                "tasks":[
+                    {
+                        "id": 1,
+                        "desc": "A4-1",
+                        "status":1
+                    },
+                    {
+                        "id": 2,
+                        "desc": "A4-2",
+                        "status":1
+                    },
+                    {
+                        "id": 3,
+                        "desc": "A4-3",
+                        "status":1
+                    }
+                ]
+            },
+            {
+                "id":2,
+                "name":"Robert",
+                "jobTitle":"junior",
+                "tasks":[
+                    {
+                        "id": 1,
+                        "desc": "A4-1",
+                        "status":1
+                    },
+                    {
+                        "id": 2,
+                        "desc": "A4-2",
+                        "status":1
+                    },
+                    {
+                        "id": 3,
+                        "desc": "A4-3",
+                        "status":1
+                    }
+                ]
+            },
+            {
+                "id":3,
+                "name":"Chris",
+                "jobTitle":"Ola",
+                "tasks":[
+                    {
+                        "id": 1,
+                        "desc": "A4-1",
+                        "status":1
+                    },
+                    {
+                        "id": 2,
+                        "desc": "A4-2",
+                        "status":1
+                    },
+                    {
+                        "id": 3,
+                        "desc": "A4-3",
+                        "status":1
+                    }
+                ]
+            }
+        ]
+      }
+]
